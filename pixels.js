@@ -148,7 +148,7 @@
   });
 
   document.body.addEventListener('mouseup', function() {
-    return brushing = false;
+    return brushing = erasing = false;
   });
 
   downloadType = document.getElementById('download-type');

@@ -114,7 +114,7 @@ main.addEventListener 'mousemove', (e) ->
     eraseMainRect e.offsetX, e.offsetY
 
 document.body.addEventListener 'mouseup', ->
-  brushing = false
+  brushing = erasing = false
 
 downloadType = document.getElementById 'download-type'
 
